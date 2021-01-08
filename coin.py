@@ -37,7 +37,7 @@ tran=input("\n\n\033[1;33mGive Me The TransactionId :\033[1;0m ")
 while True:
 	coins=input("\n\n\033[1;33mHow Much Coins ? :\033[1;0m ")
 
-        subclient.send_coins(chatId=cht,coins=1,transactionId=tran)
+        subclient.send_coins(chatId=cht,coins="1",transactionId=tran)
 
         subclient.send_coins(chatId=cht,coins=coins,transactionId=tran)
 
